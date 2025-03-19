@@ -34,7 +34,7 @@
 
 以下是在閱讀學術論文時使用本擴展的實際效果：
 
-![使用效果展示](/webpage-summarizer/images/webpage-summarizer.png)
+![image](/images/webpage-summarizer-example.png)
 
 
 如圖所示，擴展會自動生成：
