@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "網頁摘要助手",
+    "version": "1.0",
+    "description": "使用 Gemini API 總結網頁內容並顯示在側邊欄。",
+    "action": {
+        "default_title": "點擊開啟網頁摘要助手",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "32": "images/icon32.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "options_page": "options.html",
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    },
+    "permissions": [
+        "activeTab",
+        "sidePanel",
+        "scripting",
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>網頁摘要助手</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    <div class="container">
+        <h1>網頁摘要助手</h1>
+        <div id="loading" style="display: none;">處理中...</div>
+        <div id="api-settings" style="display: none;" class="settings-container">
+            <h2>API 設定</h2>
+            <div class="form-group">
+                <label for="apiKey">Gemini API 金鑰：</label>
+                <input type="text" id="apiKey" placeholder="請輸入您的 API 金鑰">
+            </div>
+            <button id="saveApiKey" class="settings-button">儲存設定</button>
+            <div id="apiStatus" class="status" style="display: none;"></div>
+        </div>
+        <div id="summary-container">
+            <button id="generateSummary">生成摘要</button>
+            <div id="summary-content"></div>
+        </div>
+    </div>
+    <script src="sidepanel.js"></script>
+</body>
+</html>
