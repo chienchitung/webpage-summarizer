@@ -36,7 +36,8 @@
 
 以下是在閱讀學術論文時使用本擴展的實際效果：
 
-![使用效果展示](webpage-summarizer-example.png)
+![image](/images/webpage-summarizer-example.png)
+
 
 如圖所示，擴展會自動生成：
 - 文章摘要：概述論文的主要內容
